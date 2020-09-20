@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<title>Tolltips | UI/UX</title>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		* {
+			margin:0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container {
+			max-width: 1100px;
+			margin: 0 auto;
+			padding: 0 2%;
+
+
+		}
+
+		.container p{
+			margin-top: 10px;
+
+		}
+
+		.container p.tooltipbox {
+			display: inline-block;
+			cursor:pointer;
+			position:relative;
+			border-bottom: 1px dotted #ccc;
+		}
+
+		.tooltip {
+			display: none;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 120px;
+			padding: 8px 4px;
+			background: black;
+			color: white;
+
+
+		}
+
+		p.tooltipbox:hover .tooltip{
+			display: block;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="container">
+		<p class="tooltipbox"><span>Descrição</span> asdmkashfjksdjfasdfasdfasdfasdfasdfasdf </p>
+
+	</div><!--container-->
+
+
+
+
+</body>
+</html>
